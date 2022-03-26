@@ -23,7 +23,7 @@
 
     #Afegint la nova entrada
 	$domini = 'dc=fjeclot,dc=net';
-	opcions = [
+	$opcions = [
         'host' => 'zend-dablro.fjeclot.net',
 	    'username' => "cn=admin,$domini",
         'password' => 'fjeclot',
@@ -52,7 +52,7 @@
 	Attribute::setAttribute($nova_entrada, 'description', $descripcio);
 	$dn = 'uid='.$uid.',ou='.$unorg.',dc=fjeclot,dc=net';
 	if($ldap->add($dn, $nova_entrada)) echo "Usuari creat";
-    echo '<a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/menu.php">Tornar al Menú Principal</a>'
-    echo '<a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/login.php">Tancar Sessió</a>'
+    echo '<a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/menu.php">Tornar al Menú Principal</a>';
+    echo '<a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/login.php">Tancar Sessió</a>';
 
 ?>

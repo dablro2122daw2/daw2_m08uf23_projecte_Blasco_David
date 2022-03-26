@@ -37,4 +37,5 @@
 		echo "Atribut modificat"; 
 	} else echo "<b>Aquesta entrada no existeix</b><br><br>";	
 	echo "<br><br><a href=\"http://zend-arolco.fjeclot.net/daw2_m08_uf23_projecte_Olivella_Arnau/menu.php\">Torna al menú</a>";
+    echo '<a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/login.php">Tancar Sessió</a>';
 ?>

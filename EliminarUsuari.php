@@ -10,7 +10,7 @@
 
     #Afegint la nova entrada
 	$domini = 'dc=fjeclot,dc=net';
-	opcions = [
+	$opcions = [
         'host' => 'zend-dablro.fjeclot.net',
 	    'username' => "cn=admin,$domini",
         'password' => 'fjeclot',
@@ -31,7 +31,7 @@
 	   echo "<b>Error: Comanda No Aceptada.</b><br>";
 	}
     
-    echo '<a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/menu.php">Tornar al Menú Principal</a>'
-    echo '<a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/login.php">Tancar Sessió</a>'
+    echo '<a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/menu.php">Tornar al Menú Principal</a>';
+    echo '<a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/login.php">Tancar Sessió</a>';
 
 ?>
