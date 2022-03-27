@@ -1,10 +1,10 @@
 <html>
     <head>
-        <title>ELIMINAR USUARI</title>
+        <title>VISUALITZACIÓ DADES USUARI</title>
     </head>
     <body>
         <h3>Especifiqui les següents dades per poder buscar l'usuari desitjat: </h3>
-        <form method="POST" action="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/EliminarUsuari.php">
+        <form method="POST" action="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/VisualitzarUsuari.php">
 
             UID: <input required type="text" name="uid">
             </p>
