@@ -45,13 +45,13 @@
             Especifiqui el Nou Valor de l'atribut Desitjat: <input required type="text" name="valor">
             </p>
 
-			<input type="submit" value="Buscar Usuari" />
+			<input type="submit" value="Modificar Usuari" />
 			<input type="reset" value="Neteja" />
 
         </form>
         
         </p></p>
-        <a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/menu.php">Tornar al Menú</a></p>
+        <a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/menu.php">Tornar al Menú Principal</a></p>
         <a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/login.php">Tancar Sessió</a>
 
     </body>

@@ -14,7 +14,7 @@
 		<input type="button" value="Visualitzar Usuaris" onclick="location.href='http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/BuscarUsuari_Visualitzar.php'"></p>
         <input type="button" value="Crear Usuari" onclick="location.href='http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/CrearUsuari.php'"></p>
         <input type="button" value="Modificar Usuari" onclick="location.href='http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/BuscarUsuari_Modificar.php'"></p>
-        <input type="button" value="Visualitzar Usuaris" onclick="location.href='http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/BuscarUsuari_Eliminar'"></p>
+        <input type="button" value="Eliminar Usuaris" onclick="location.href='http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/BuscarUsuari_Eliminar.php'"></p>
 		</p>
 
         <a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/login.php">Tancar Sessió</a>

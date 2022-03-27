@@ -4,7 +4,7 @@
     </head>
     <body>
         <h3>Especifiqui les següents dades per poder buscar l'usuari desitjat: </h3>
-        <form method="POST" action="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/VisualitzarUsuari.php">
+        <form method="GET" action="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/VisualitzarUsuari.php">
 
             UID: <input required type="text" name="uid">
             </p>

@@ -51,8 +51,8 @@
 	Attribute::setAttribute($nova_entrada, 'title', $titol);
 	Attribute::setAttribute($nova_entrada, 'description', $descripcio);
 	$dn = 'uid='.$uid.',ou='.$unorg.',dc=fjeclot,dc=net';
-	if($ldap->add($dn, $nova_entrada)) echo "Usuari creat";
-    echo '<a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/menu.php">Tornar al Menú Principal</a>';
+	if($ldap->add($dn, $nova_entrada)) echo "Usuari creat</p>";
+    echo '<a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/menu.php">Tornar al Menú Principal</a></p>';
     echo '<a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/login.php">Tancar Sessió</a>';
 
 ?>

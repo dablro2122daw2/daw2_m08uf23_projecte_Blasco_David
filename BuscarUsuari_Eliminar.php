@@ -12,7 +12,7 @@
             </p>
             
             </p>
-			<input type="submit" value="Buscar Usuari" />
+			<input type="submit" value="Eliminar Usuari" />
 			<input type="reset" value="Neteja" />
 
         </form>
