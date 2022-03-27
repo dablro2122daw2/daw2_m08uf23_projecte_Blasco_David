@@ -15,31 +15,29 @@
             Quin atribut del usuari vols modificar?:</p>
             <input type="radio" name="atribut" value="uid">UID
             </p>
-            <input type="radio" name="atribut" value="unorg">Unitat Organitzativa
+	    <input type="radio" name="atribut" value="uidNumber">uidNumber
             </p>
-            <input type="radio" name="atribut" value="num_id">uidNumber
+            <input type="radio" name="atribut" value="gidNumber">gidNumber
             </p>
-            <input type="radio" name="atribut" value="grup">gidNumber
+            <input type="radio" name="atribut" value="homeDirectory">Directori Personal
             </p>
-            <input type="radio" name="atribut" value="dir_pers">Directori Personal
-            </p>
-            <input type="radio" name="atribut" value="sh">Shell
+            <input type="radio" name="atribut" value="loginShell">Shell
             </p>
             <input type="radio" name="atribut" value="cn">CN
             </p>
             <input type="radio" name="atribut" value="sn">SN
             </p>
-            <input type="radio" name="atribut" value="nom">givenName
+            <input type="radio" name="atribut" value="giveName">givenName
             </p>
-            <input type="radio" name="atribut" value="adressa">Postal Adress
+            <input type="radio" name="atribut" value="postalAdress">Postal Adress
             </p>
-            <input type="radio" name="atribut" value="mobil">Mobile
+            <input type="radio" name="atribut" value="mobile">Mobile
             </p>
-            <input type="radio" name="atribut" value="telefon">telephoneNumber
+            <input type="radio" name="atribut" value="telephoneNumber">telephoneNumber
             </p>
-            <input type="radio" name="atribut" value="titol">title
+            <input type="radio" name="atribut" value="title">title
             </p>
-            <input type="radio" name="atribut" value="descripcio">description
+            <input type="radio" name="atribut" value="description">description
             </p>
 
             Especifiqui el Nou Valor de l'atribut Desitjat: <input required type="text" name="valor">
