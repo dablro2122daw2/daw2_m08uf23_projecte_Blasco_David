@@ -21,6 +21,6 @@
         }
     }else echo "<b>Aquesta entrada no existeix</b><br><br>";
     echo "<br><br>";
-    echo "<a href=\"http://zend-dablro.fjeclot.net/daw2_m08_uf23_projecte_Blasco_David/menu.php\">Torna al Menú Principal</a></p>";
-    echo "<a href=\"http://zend-dablro.fjeclot.net/daw2_m08_uf23_projecte_Blasco_David/login.php\">Tancar Sessió</a>";
+    echo '<a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/menu.php">Tornar al Menú Principal</a></p>';
+    echo '<a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/login.php">Tancar Sessió</a>';
 ?>
