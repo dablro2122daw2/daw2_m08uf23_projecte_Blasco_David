@@ -27,7 +27,7 @@
 	$ldap->bind();
 	$entrada = $ldap->getEntry($dn);
 	if ($entrada){
-	    if($_POST["atribut"]== 'num_id' || $_POST["atribut"]== 'grup' $_POST["atribut"]== 'mobil' || $_POST["atribut"]== 'telefon'){
+	    if($_POST["atribut"]== 'num_id' || $_POST["atribut"]== 'grup' || $_POST["atribut"]== 'mobil' || $_POST["atribut"]== 'telefon'){
 	      Attribute::setAttribute($entrada,$_POST["atribut"],(int)$_POST["valor"]);
 		  $ldap->update($dn, $entrada);
 	    }else{
