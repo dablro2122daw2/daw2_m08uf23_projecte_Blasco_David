@@ -27,7 +27,7 @@
 	$ldap->bind();
 	$entrada = $ldap->getEntry($dn);
 	if ($entrada){
-	    if($_POST["atribut"]== 'num_id' || $_POST["atribut"]== 'grup' ){
+	    if($_POST["atribut"]== 'num_id' || $_POST["atribut"]== 'grup' $_POST["atribut"]== 'mobil' || $_POST["atribut"]== 'telefon'){
 	      Attribute::setAttribute($entrada,$_POST["atribut"],(int)$_POST["valor"]);
 		  $ldap->update($dn, $entrada);
 	    }else{
@@ -36,6 +36,6 @@
 	    }
 		echo "Atribut modificat"; 
 	} else echo "<b>Aquesta entrada no existeix</b><br><br>";	
-	echo "<br><br><a href=\"http://zend-arolco.fjeclot.net/daw2_m08_uf23_projecte_Olivella_Arnau/menu.php\">Torna al menú</a>";
+	echo "<br><br><a href=\"http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/menu.php\">Torna al menú</a>";
     echo '<a href="http://zend-dablro.fjeclot.net/daw2_m08uf23_projecte_Blasco_David/login.php">Tancar Sessió</a>';
 ?>
