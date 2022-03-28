@@ -15,7 +15,7 @@
             Quin atribut del usuari vols modificar?:</p>
             <input type="radio" name="atribut" value="uid">UID
             </p>
-	    <input type="radio" name="atribut" value="uidNumber">uidNumber
+	        <input type="radio" name="atribut" value="uidNumber">uidNumber
             </p>
             <input type="radio" name="atribut" value="gidNumber">gidNumber
             </p>
