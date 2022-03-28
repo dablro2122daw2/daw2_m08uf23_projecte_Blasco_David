@@ -7,10 +7,10 @@
 	#
 	# Entrada a modificar
 	#
-	$uid = $_POST["uid"];
-	$unorg = $_POST["unorg"];
-    $atribut = $_POST["atribut"];
-    $valor = $_POST["valor"];
+	$uid = $_GET["uid"];
+	$unorg = $_GET["unorg"];
+    $atribut = $_GET["atribut"];
+    $valor = $_GET["valor"];
 
 	$dn = 'uid='.$uid.',ou='.$unorg.',dc=fjeclot,dc=net';
 	#
@@ -30,7 +30,7 @@
 	$ldap->bind();
 	$entrada = $ldap->getEntry($dn);
 	if ($entrada){
-        Attribute::setAttribute($entrada,$_POST["atribut"],$_POST["valor"]);
+        Attribute::setAttribute($entrada,$_GET["atribut"],$_GET["valor"]);
         $ldap->update($dn, $entrada);
 		echo "Atribut modificat"; 
 	}
